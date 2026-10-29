@@ -81,9 +81,9 @@ function Header() {
         <NavLink to="/studio">Studio</NavLink>
       </nav>
 
-      <Link to="https://api.whatsapp.com/send/?phone=9779702677993" className="header-cta">
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=9779702677993" className="header-cta">
         Let's talk <span aria-hidden="true">↗</span>
-      </Link>
+      </a>
     </header>
   );
 }
@@ -97,7 +97,7 @@ function Footer() {
 
       <p>Good websites make a difference.</p>
 
-      <a href="https://api.whatsapp.com/send/?phone=9779702677993">
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=9779702677993">
         Get in touch <span aria-hidden="true">↗</span>
       </a>
     </footer>
@@ -149,7 +149,7 @@ function ProjectArtwork({ project }) {
 
 function ProjectCard({ project }) {
   return (
-    <Link to={project.link} className="project-card">
+    <a href={project.link} target="_blank" className="project-card">
       <div className="project-image">
         <ProjectArtwork project={project} />
         <span className="project-open" aria-hidden="true">↗</span>
@@ -162,7 +162,7 @@ function ProjectCard({ project }) {
         </div>
         <span className="project-number">{project.number}</span>
       </div>
-    </Link>
+    </a>
   );
 }
 
@@ -184,9 +184,9 @@ function Home() {
                 to stand out.
               </p>
 
-              <Link to="https://api.whatsapp.com/send/?phone=9779702677993" className="round-link" aria-label="Start a project">
+              <a target="_blank" href="https://api.whatsapp.com/send/?phone=9779702677993" className="round-link" aria-label="Start a project">
                 <span aria-hidden="true">↘</span>
-              </Link>
+              </a >
             </div>
           </div>
 
@@ -265,9 +265,9 @@ function Home() {
           </h2>
           <div className="closing-cta-bottom">
             <p>Let's turn it into a website worth remembering.</p>
-            <Link to="https://api.whatsapp.com/send/?phone=9779702677993" className="button-link">
+            <a target="_blank" href="https://api.whatsapp.com/send/?phone=9779702677993" className="button-link">
               Start a project <span aria-hidden="true">↗</span>
-            </Link>
+            </a>
           </div>
         </section>
       </main>
@@ -301,9 +301,9 @@ function Work() {
 
         <section className="work-bottom">
           <h2>Your business could be next.</h2>
-          <Link to="https://api.whatsapp.com/send/?phone=9779702677993" className="button-link">
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=9779702677993" className="button-link">
             Let's talk <span aria-hidden="true">↗</span>
-          </Link>
+          </a>
         </section>
       </main>
 
@@ -364,7 +364,7 @@ function Studio() {
               Tell us about your business and what you'd like your website
               to do.
             </p>
-            <a className="button-link" href="https://api.whatsapp.com/send/?phone=9779702677993">
+            <a target="_blank" className="button-link" href="https://api.whatsapp.com/send/?phone=9779702677993">
               Whatsapp <span aria-hidden="true">↗</span>
             </a>
           </div>
