@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#315ee8"></rect>
+  <g fill="#ffffff" transform="skewX(-15) translate(12 0)">
+    <rect x="10" y="25" width="8" height="20" rx="4"></rect>
+    <rect x="22" y="13" width="8" height="38" rx="4"></rect>
+    <rect x="34" y="20" width="8" height="27" rx="4"></rect>
+  </g>
+</svg>
